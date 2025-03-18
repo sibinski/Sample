@@ -1,4 +1,4 @@
-// Add numbers using += assignment operator
+// Add numbers using += assignment operator and -= assignment operator.
 public static void main(String[] args) {
 
     int itemsAvailable = 7;
