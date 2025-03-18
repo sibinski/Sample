@@ -1,4 +1,17 @@
-package PACKAGE_NAME;
+public class Iphone implements Phone, iOS{
+    @Override
+    public String processor()
+    {
+        return "A15";
+    }
 
-public class Iphone {
+    @Override
+    public int spaceInGb() {
+        return 256;
+    }
+
+    @Override
+    public String airdrop() {
+        return "Copy & paste anywhere!";
+    }
 }

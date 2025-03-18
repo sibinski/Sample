@@ -1,3 +1,3 @@
-public interface Feature {
-    
+public interface Android {
+    String whatsapp();
 }

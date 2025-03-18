@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface Phone {
+    String processor();
+    int spaceInGb();
 }
