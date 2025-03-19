@@ -6,7 +6,6 @@ public static void main() {
     //Declare and initialise the length of shortened book title
     int maxLength = 20;
 
-
     // Shortened the book title
     String shortBookTitle = bookTitle.substring(0, maxLength);
     System.out.println("Original title: " + bookTitle);
@@ -28,8 +27,17 @@ public static void main() {
     System.out.println(length);
     String shortenedSentence = newString.substring(0, 17);
     System.out.println(shortenedSentence);
+    favoriteBook();
 }
 
 public static String training() {
     return "Java programming is fun and educational";
+}
+
+public static void favoriteBook() {
+    String booksTitle = "Dracula";
+    String authorsName = "Bram Stoker";
+    int numberOfPages = 223;
+    float price = 19.99f;
+    System.out.println("My favorite book is: " + booksTitle + ". \nIt's author is: " + authorsName + ". \nIt consist of " + numberOfPages + " pages. \nIt's price is: $" + price + ". \nI love it!");
 }
