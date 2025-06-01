@@ -28,12 +28,16 @@ public static void main() {
     String shortenedSentence = newString.substring(0, 17);
     System.out.println(shortenedSentence);
     favoriteBook();
+    calculations();
 }
 
 public static String training() {
     return "Java programming is fun and educational";
 }
-
+public static void calculations() {
+    int remainder = 9 % 4;
+    System.out.println(remainder);
+}
 public static void favoriteBook() {
     String booksTitle = "Dracula";
     String authorsName = "Bram Stoker";
